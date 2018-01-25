@@ -1,0 +1,10 @@
+#include "TXLib.h"
+
+void Summa ();
+
+int main ()
+    {
+    Summa ()
+    }
+
+void

@@ -1,0 +1,39 @@
+#include "TXLib.h"
+
+void MoveBall ();
+
+int main ()
+    {
+    txCreateWindow (600, 800);
+
+    MoveBall ();
+    return 0;
+    }
+
+//=============================================================================
+
+void MoveBall ()
+    {
+    int x = 100, y = 100;
+    int vx = 5, vy = 6;
+    int dt = 1;
+
+    while (true)
+        {
+        
+        x = x + vx*dt;
+        y = y + vy*dt;
+
+        txCircle (x, y, 20);
+        
+        if 
+        txSleep (100);
+        
+    
+        }
+    }
+
+
+
+
+
